@@ -418,7 +418,7 @@
         <div style="background: rgba(212,175,55,0.08); border-radius: var(--radius-lg); padding: 20px; margin-bottom: 25px;">
           <p style="display: flex; align-items: center; gap: 15px; font-size: 1rem;">
             <i class="fas fa-info-circle" style="color: var(--accent-gold); font-size: 1.5rem;"></i>
-            <strong>ديبوزيت تأكيد 100 جنيه</strong> يُخصم من إجمالي الفاتورة + 50 جنيه مصاريف شحن
+            <strong>يتم تحويل مبلغ الاوردر كامل </strong>+50 مصاريف شحن
           </p>
         </div>
         <form id="checkoutForm" onsubmit="submitOrder(event)">
@@ -441,8 +441,8 @@
             </div>
           </div>
           <div style="background: var(--cream-soft); border-radius: var(--radius-lg); padding: 25px; margin-bottom: 25px;">
-            <h4 style="font-size: 1.3rem; margin-bottom: 20px;"><i class="fas fa-hand-holding-usd"></i> الديبوزيت التأكيدي</h4>
-            <div style="background: white; padding: 15px; border-radius: var(--radius-md); text-align: center; margin-bottom: 20px; font-size: 1.5rem; font-weight: 900; color: var(--primary-rich); border: 2px dashed var(--accent-gold);">01206622787</div>
+            <h4 style="font-size: 1.3rem; margin-bottom: 20px;"><i class="fas fa-hand-holding-usd"></i> خصومات</h4>
+            <div style="background: white; padding: 15px; border-radius: var(--radius-md); text-align: center; margin-bottom: 20px; font-size: 1.5rem; font-weight: 900; color: var(--primary-rich); border: 2px dashed var(--accent-gold);">01018510018</div>
             <div style="margin-bottom: 20px;">
               <label style="display: block; margin-bottom: 8px; font-weight: 600;"><i class="fas fa-mobile-alt"></i> رقم الهاتف المُحول منه *</label>
               <input type="tel" id="transferPhone" placeholder="مثال: 01012345678" required style="width: 100%; padding: 14px 18px; border: 2px solid var(--cream-soft); border-radius: var(--radius-full); font-size: 1rem;">
@@ -450,7 +450,7 @@
             <div>
               <label style="display: block; margin-bottom: 8px; font-weight: 600;"><i class="fas fa-images"></i> صورة إثبات الدفع *</label>
               <div style="border: 2px dashed var(--accent-gold); border-radius: var(--radius-lg); padding: 30px; text-align: center; background: white; position: relative;">
-                <i class="fas fa-cloud-upload-alt" style="font-size: 2.5rem; color: var(--accent-gold); margin-bottom: 10px;"></i>
+                <i class="fas fa-cloud-upload-alt" style="font-size: 2.5rem; colذشor: var(--accent-gold); margin-bottom: 10px;"></i>
                 <p style="margin-bottom: 10px;">اضغط لاختيار صورة</p>
                 <input type="file" id="paymentProof" accept="image/*" required style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer;">
               </div>
@@ -561,7 +561,7 @@
       SHEET_URL: "https://docs.google.com/spreadsheets/d/1UFpJI16jRdWTBjynOCMWaj0SLc_7iVf6ZKVItKGgyeI/export?format=csv",
       TELEGRAM_TOKEN: '8141248025:AAFjzmtzxkphL7QceatUI66yFKGl9E4dkpc',
       TELEGRAM_CHAT_ID: '5194136945',
-      DEPOSIT: 100,
+      DEPOSIT: 0,
       SHIPPING: 50,
       CURRENCY: 'ج.م'
     };
