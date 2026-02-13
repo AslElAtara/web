@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5, user-scalable=yes" />
-  <title>أصل العطارة | الحيوية العصرية الفاخرة</title>
+  <title>أصل العطارة</title>
   
   <!-- Premium Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&family=Cairo:wght@400;600;700;800;900&family=Readex+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -540,7 +540,8 @@
         </div>
       </div>
       <div style="text-align: center; margin-top: 50px; padding-top: 30px; border-top: 1px solid rgba(255,255,255,0.1);">
-        <p>© 2026 أصل العطارة - جميع الحقوق محفوظة. تصميم عصري فاخر</p>
+        <p>© 2026أصل العطارة - جميع الحقوق محفوظة. </p>
+        <p> تطوير | عزيز عماد |01206622787|</p>
       </div>
     </div>
   </footer>
@@ -676,13 +677,7 @@
 
     function loadFallbackProducts() {
       state.allProducts = [
-        {id: 'p1', img: 'https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=600', name: 'بليزر رجالي أنيق - قماش فاخر', price: 850, type: 'رجالي', badge: 'تخفيض 30%', description: 'بليزر فاخر من قماش عالي الجودة', rating: 4.8, reviews: 45, inStock: true},
-        {id: 'p2', img: 'https://images.unsplash.com/photo-1564257631407-4deb1f99d992?w=600', name: 'فستان سهرة طويل - تصميم حصري', price: 1200, type: 'نسائي', badge: 'حصري', description: 'فستان سهرة أنيق بتصميم عصري', rating: 4.9, reviews: 78, inStock: true},
-        {id: 'p3', img: 'https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=600', name: 'تيشرت أطفال قطني 100%', price: 320, type: 'أطفال', badge: 'عرض خاص', description: 'تيشرت قطني 100%', rating: 4.6, reviews: 23, inStock: true},
-        {id: 'p4', img: 'https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=600', name: 'حقيبة جلدية فاخرة - بني', price: 670, type: 'اكسسوارات', badge: 'جديد', description: 'حقيبة جلد طبيعي', rating: 4.7, reviews: 34, inStock: true},
-        {id: 'p5', img: 'https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=600', name: 'ساعة أنيقة - عقارب ذهبية', price: 1450, type: 'اكسسوارات', badge: 'فاخر', description: 'ساعة أنيقة كلاسيك', rating: 4.9, reviews: 56, inStock: true},
-        {id: 'p6', img: 'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=600', name: 'حقيبة يد نسائية', price: 890, type: 'نسائي', badge: 'الأكثر مبيعاً', description: 'حقيبة يد أنيقة', rating: 4.7, reviews: 42, inStock: true}
-      ];
+              ];
       state.filteredProducts = [...state.allProducts];
       state.categories = ['الكل', ...new Set(state.allProducts.map(p => p.type))];
       renderAll();
